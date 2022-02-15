@@ -1,0 +1,10 @@
+{
+  "name": "food-website",
+  "version": "1.0.0",
+  "description": "Simple food website",
+  "scripts": {
+    "develop": "cd app && browser-sync start --server --files \"*\""
+  },
+  "author": "Kristijan Nusheski",
+  "license": "ISC"
+}

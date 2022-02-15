@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="loader" id="loader">
+    <img src="images/loader.gif" alt="" class="loader__img">
+</div>
+<div class="content" id="content">
+    <header class="header">
+        <nav class="nav">
+            <i class='bx bx-restaurant nav__logo'></i>
+            <h1 class="nav__title">Food</h1>
+
+            <i class='bx bx-menu nav__menu-btn' id="menu-btn"></i>
+
+            <ul class="nav__list" id="nav-list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#speciality" class="nav__link">Speciality</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#popular" class="nav__link">Popular</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#gallery" class="nav__link">Gallery</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#review" class="nav__link">Review</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#order" class="nav__link">Order</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="move-to-top" id="move-to-top">
+            <a href="#home" class="move-to-top--link">
+                <i class='bx bx-chevron-up move-to-top__icon'></i>
+            </a>
+        </div>
+
+        <section class="home" id="home">
+            <div>
+                <h1 class="section__title">Food Made With Love</h1>
+
+                <p class="section__description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem
+                    amet
+                    laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt
+                    rem
+                    quisquam eos!
+                </p>
+
+                <a href="#" class="button">Order Now</a>
+            </div>
+
+            <img src="images/home-img.png" class="home__img" alt="Burger">
+        </section>
+
+        <section class="speciality" id="speciality">
+            <h2 class="section__title">Our <span class="text-color-red">Speciality</span></h2>
+
+            <ul class="speciality__list">
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-1.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-1.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">tasty burger</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-2.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-2.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">tasty pizza</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-3.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-3.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">cold ice-cream</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-4.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-4.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">cold drinks</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-5.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-5.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">tasty sweets</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="speciality__item">
+                    <img class="speciality__item-image" src="images/s-img-6.jpg" alt="">
+
+                    <div class="speciality__item-content">
+                        <img src="images/s-6.png" class="speciality__item-icon" alt="">
+
+                        <h3 class="speciality__item-title">healthy breakfast</h3>
+                        <p class="speciality__item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa
+                            tenetur voluptates aperiam tempore libero labore aut.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="popular" id="popular">
+            <h2 class="section__title">Most <span class="text-color-red">Popular</span> Foods</h2>
+
+            <ul class="popular__list">
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-1.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Tasty Burger</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-2.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Tasty Cakes</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-3.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Tasty Sweets</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-4.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Tasty Cupcakes</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-5.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Cold Drinks</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+
+                <li class="popular__item">
+                    <p class="popular__item-price">$5 - $20</p>
+
+                    <img src="images/p-6.jpg" class="popular__item-img" alt="">
+
+                    <p class="popular__item-title">Cold Ice-cream</p>
+
+                    <div class="popular__item-stars">
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bxs-star popular__item-star'></i>
+                        <i class='bx bx-star popular__item-star'></i>
+                    </div>
+
+                    <a href="#" class="button">Order Now</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="how-works">
+            <h2 class="section__title">How It <span class="text-color-red">Works</span></h2>
+
+            <ul class="how-works__list">
+                <li class="how-works__item">
+                    <img src="images/step-1.jpg" class="how-works__img" alt="">
+                    <p class="how-works--text">Choose Your Favorite Food</p>
+                </li>
+
+                <li class="how-works__item">
+                    <img src="images/step-2.jpg" class="how-works__img" alt="">
+                    <p class="how-works--text">Free And Fast Delivery</p>
+                </li>
+
+                <li class="how-works__item">
+                    <img src="images/step-3.jpg" class="how-works__img" alt="">
+                    <p class="how-works--text">Easy Payments Methods</p>
+                </li>
+
+                <li class="how-works__item">
+                    <img src="images/step-4.jpg" class="how-works__img" alt="">
+                    <p class="how-works--text">And Finally, Enjoy Your Food</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2 class="section__title">Our Food <span class="text-color-red">Gallery</span></h2>
+
+            <ul class="gallery__list">
+                <li class="gallery__item">
+                    <img src="images/g-1.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-2.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-3.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-4.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-5.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-6.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-7.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-8.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+
+                <li class="gallery__item">
+                    <img src="images/g-9.jpg" class="gallery__item-img" alt="">
+
+                    <div class="gallery__item-content">
+                        <p class="gallery__item-title">Tasty Food</p>
+                        <p class="gallery__item-description">
+                            Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Deleniti, Ipsum.
+                        </p>
+                        <a href="#" class="button gallery__item-btn">Order Now</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="review" id="review">
+            <h2 class="section__title">Our Customers <span class="text-color-red">Reviews</span></h2>
+
+            <ul class="review__list">
+                <li class="review__item">
+                    <img src="images/pic1.png" class="review__item-img" alt="">
+
+                    <div class="review__item-content">
+                        <p class="review__item-title">John Deo</p>
+
+                        <div class="review__item-stars">
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bx-star review__item-star'></i>
+                        </div>
+
+                        <p class="review__item-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti Delectus, Ducimus Facere
+                            Quod
+                            Ratione Vel Laboriosam? Est, Maxime Rem. Itaque.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="review__item">
+                    <img src="images/pic2.png" class="review__item-img" alt="">
+
+                    <div class="review__item-content">
+                        <p class="review__item-title">John Deo</p>
+
+                        <div class="review__item-stars">
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bx-star review__item-star'></i>
+                        </div>
+
+                        <p class="review__item-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti Delectus, Ducimus Facere
+                            Quod
+                            Ratione Vel Laboriosam? Est, Maxime Rem. Itaque.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="review__item">
+                    <img src="images/pic3.png" class="review__item-img" alt="">
+
+                    <div class="review__item-content">
+                        <p class="review__item-title">John Deo</p>
+
+                        <div class="review__item-stars">
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bxs-star review__item-star'></i>
+                            <i class='bx bx-star review__item-star'></i>
+                        </div>
+
+                        <p class="review__item-description">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Corrupti Delectus, Ducimus Facere
+                            Quod
+                            Ratione Vel Laboriosam? Est, Maxime Rem. Itaque.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="order" id="order">
+            <h2 class="section__title"><span class="text-color-red">Order</span> Now</h2>
+
+            <form action="#" class="order__form">
+                <img src="images/order-img.jpg" class="order__form-img" alt="">
+
+                <div class="order__form-content">
+                    <div class="display-flex">
+                        <input class="order__form-input" type="text" name="text" placeholder="name">
+                        <input class="order__form-input" type="email" name="email" placeholder="email">
+                    </div>
+
+                    <div class="display-flex">
+                        <input class="order__form-input" type="number" name="number" placeholder="number">
+                        <input class="order__form-input" type="text" name="foodName" placeholder="food name">
+                    </div>
+
+                    <textarea class="order__form-area" name="address" placeholder="address" rows="5"></textarea>
+
+                    <a href="#" class="button">Order Now</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="#" class="button footer__link">Facebook</a>
+            </li>
+
+            <li class="footer__item">
+                <a href="#" class="button footer__link">Twitter</a>
+            </li>
+
+            <li class="footer__item">
+                <a href="#" class="button footer__link">Instagram</a>
+            </li>
+
+            <li class="footer__item">
+                <a href="#" class="button footer__link">Pinterest</a>
+            </li>
+
+            <li class="footer__item">
+                <a href="#" class="button footer__link">Linkedin</a>
+            </li>
+        </ul>
+
+        <p class="footer__copy">
+            Created By <span class="text-color-red">Mr. Kristijan Nusheski</span> | All Rights Reserved!
+        </p>
+    </footer>
+</div>
+</body>
+</html>
